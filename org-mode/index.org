@@ -1,0 +1,3 @@
+#+TITLE: Org mode
+
+- [[./org-mode-syntax.org][Org mode Syntax]]
