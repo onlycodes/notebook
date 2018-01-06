@@ -1,9 +1,0 @@
-
-#+TITLE: NoteBook
-
-* Org mode
-
-- [[./org-mode/index.org][Org mode]]
-
-* JavaScript
-
