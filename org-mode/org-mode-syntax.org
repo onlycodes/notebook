@@ -115,8 +115,9 @@
 当源代码块中以 '*', ',*', '#+', ',#+' 开始, 在这些符号之前插入 ',' , 防止导出时解释为org的语法
 
 #+BEGIN_SRC org
-  ,#+BEGIN_SRC <language>
-  
+  ,#+NAME: <name>
+  ,#+BEGIN_SRC <language> <switches> <header arguments>
+    <code body>
   ,#+END_SRC
 
 #+END_SRC
