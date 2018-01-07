@@ -113,12 +113,12 @@
 
 * 源代码块
 
-#+BEGIN_SRC org
+#+BEGIN_EXAMPLE
   #+NAME: name
-  \#+BEGIN_SRC language 
+  #+BEGIN_SRC language 
     <code>
-  \#+END_SRC
-#+END_SRC
+  #+END_SRC 
+#+END_EXAMPLE
 
 * 待办事项
 
