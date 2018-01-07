@@ -1,8 +1,9 @@
 #+TITLE: Org mode Syntax
 
+
 * 标题
 
-标题以星号(*)开头
+标题的标记为: 一至多个 '*'
 
 #+BEGIN_SRC org
   * 一级标题
@@ -12,3 +13,113 @@
   ***** 五级标题
   ****** 六级标题
 #+END_SRC
+
+* 段落
+起始直接书写内容即为段落, 段落之间以空行分隔
+
+* 列表
+列表包括: 有序列表, 无序列表, 描述列表; 同一级的列表缩进必须相同, 不同级的列表以不同缩进区分
+
+** 有序列表
+有序列表的标记为: '1.', '1)'
+#+BEGIN_SRC org
+  1. 有序列表一
+
+  1) 有序列表二
+#+END_SRC
+
+** 无序列表
+无序列表的标记为: '-', '+', '*'(使用 '*' 做列表项的标记时, 这一行必须缩进, 最好不使用 '*')
+
+#+BEGIN_SRC org
+  - 无序列表一
+
+  + 无序列表二
+
+  * 无序列表三
+#+END_SRC
+
+** 描述列表
+描述列表的标记为: '::'
+
+#+BEGIN_SRC 
+  列表项 :: 列表描述
+#+END_SRC
+
+* 超链接
+类似于HTML, 可以添加文件内部的链接和文件外部的链接
+
+#+BEGIN_SRC org
+  [[link][description]]
+
+  [[link]]
+
+  [[#my-custom-id]]
+#+END_SRC
+
+常用链接格式
+| http://orgmode.org/org.html  | on the web          |
+| file:/home/notes/note.org    | file, absolute path |
+| /home/notes/note.org         | same as above       |
+| ./notes/note.org             | same as above       |
+| mailto:myemail@example.com   | mail link           |
+
+* 表格
+
+#+BEGIN_SRC org
+| Name  | Phone | Age |
+|-------+-------+-----|
+| name1 | 123   | 1   |
+| name2 | 789   | 2   |
+#+END_SRC
+
+* 文本样式
+
+** 加粗
+#+BEGIN_SRC org
+  *加粗文本*
+#+END_SRC
+
+** 斜体
+#+BEGIN_SRC org
+  /斜体/
+#+END_SRC
+
+** 删除线
+#+BEGIN_SRC org
+  +删除线+
+#+END_SRC
+
+** 下划线
+#+BEGIN_SRC org
+  _下划线_
+#+END_SRC
+
+** 等宽字
+#+BEGIN_SRC org
+  =org=
+#+END_SRC
+
+** 下标
+#+BEGIN_SRC org
+  H_2 O
+  (下标和普通字符之间以一个空格分隔)
+#+END_SRC
+
+** 上标
+#+BEGIN_SRC org
+  πr^2
+#+END_SRC
+
+* 源代码块
+
+#+BEGIN_SRC org
+  #+NAME: name
+  #+BEGIN_SRC language 
+    <code>
+  #+END_SRC
+#+END_SRC
+
+* 待办事项
+
+
