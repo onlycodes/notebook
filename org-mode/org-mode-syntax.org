@@ -112,13 +112,14 @@
 #+END_SRC
 
 * 源代码块
+当源代码块中以 '*', ',*', '#+', ',#+' 开始, 在这些符号之前插入 ',' , 防止导出时解释为org的语法
 
-#+BEGIN_EXAMPLE
-  #+NAME: name
-  #+BEGIN_SRC language 
-    <code>
-  #+END_SRC 
-#+END_EXAMPLE
+#+BEGIN_SRC org
+  ,#+BEGIN_SRC <language>
+  
+  ,#+END_SRC
+
+#+END_SRC
 
 * 待办事项
 
