@@ -50,6 +50,18 @@
 + [[https://www.jetbrains.com/pycharm/][PyCharm]]
 + [[https://www.genuitec.com/][Genuitec]]
 + [[https://www.genuitec.com/products/angular-ide/][Angular IDE]]
-+ [[https://tamlok.github.io/vnote/][VNote-Markdown 编辑器]]
 
+*** 其他编辑器
++ [[https://tamlok.github.io/vnote/][VNote]]
 
+*** Vim插件
++ [[https://github.com/pangloss/vim-javascript][vim-javascript(GitHub)]]
++ [[https://github.com/leafgarland/typescript-vim][vim-typescript(GitHub)]]
++ [[https://github.com/fatih/vim-go][vim-go(GitHub)]]
++ [[https://github.com/mattn/emmet-vim][vim-emmet(GitHub)]]
++ [[https://github.com/posva/vim-vue][vim-vue(GitHub)]]
++ [[https://github.com/rakr/vim-one][vim-one colorschemes(GitHub)]]
++ [[https://github.com/altercation/vim-colors-solarized][vim-solarized colorschemes(GitHub)]]
+
+*** Emacs插件
++ [[https://github.com/syl20bnr/spacemacs][spacemacs(GitHub)]]
