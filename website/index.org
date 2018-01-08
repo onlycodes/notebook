@@ -1,0 +1,55 @@
+#+TITLE: 网址列表
+
+** 常用
+
++ [[https://www.baidu.com/][百度]]
++ [[https://www.google.com.hk/?gws_rd=ssl][Google]]
++ [[https://github.com/][GitHub]]
+
+** 编程语言
+
++ [[https://developer.mozilla.org/zh-CN/][MDN Web 文档(中文)]]
++ [[http://www.typescriptlang.org/][TypeScript(英文)]]
++ [[https://www.tslang.cn/][TypeScript(中文)]]
++ [[http://es6.ruanyifeng.com/][阮一峰 ECMAScript6 入门]]
++ [[https://nodejs.org/en/][Node.js(英文)]]
++ [[http://nodejs.cn/][Node.js(中文)]]
++ [[https://golang.org/][Go]]
++ [[http://docscn.studygolang.com/][Go(中文)]]
++ [[http://php.net/][PHP]]
+
+** 前端
+
+*** Vue
++ [[https://cn.vuejs.org/][Vue.js(中文)]]
++ [[https://router.vuejs.org/zh-cn/][Vue Router(中文)]]
++ [[https://vuex.vuejs.org/zh-cn/][Vuex(中文)]]
++ [[http://element-cn.eleme.io/#/zh-CN][Element(中文)]]
++ [[http://weex.apache.org/cn/][Weex(中文)]]
+
+*** Angular
++ [[https://angular.io/][Angular(英文)]]
++ [[https://www.angular.cn/][Angular(中文)]]
+
+*** React
++ [[https://reactjs.org/][React(英文)]]
++ [[http://facebook.github.io/react-native/][React Native(英文)]]
+
+** 编辑器
+*** 编辑器官网
++ [[https://code.visualstudio.com/][VS Code]]
++ [[https://atom.io/][Atom]]
++ [[http://www.vim.org/][Vim]]
++ [[http://www.gnu.org/software/emacs/][Emacs]]
++ [[https://notepad-plus-plus.org/][Notepad++]]
++ [[https://codelite.org/][CodeLite]]
++ [[http://brackets.io/][Brackets]]
++ [[http://www.sublimetext.com/][Sublime]]
++ [[https://www.jetbrains.com/][JetBrains]]
++ [[https://www.jetbrains.com/idea/][IntelliJ IDEA]]
++ [[https://www.jetbrains.com/pycharm/][PyCharm]]
++ [[https://www.genuitec.com/][Genuitec]]
++ [[https://www.genuitec.com/products/angular-ide/][Angular IDE]]
++ [[https://tamlok.github.io/vnote/][VNote-Markdown 编辑器]]
+
+
