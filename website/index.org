@@ -45,6 +45,7 @@
 + [[https://codelite.org/][CodeLite]]
 + [[http://brackets.io/][Brackets]]
 + [[http://www.sublimetext.com/][Sublime]]
++ [[https://www.activestate.com/komodo-ide/downloads/edit][Komodo Edit]]
 + [[https://www.jetbrains.com/][JetBrains]]
 + [[https://www.jetbrains.com/idea/][IntelliJ IDEA]]
 + [[https://www.jetbrains.com/pycharm/][PyCharm]]
@@ -65,3 +66,7 @@
 
 *** Emacs插件
 + [[https://github.com/syl20bnr/spacemacs][spacemacs(GitHub)]]
++ [[https://orgmode.org/][org-mode]]
++ [[https://github.com/dominikh/go-mode.el][go-model(GitHub)]]
++ [[https://github.com/fxbois/web-mode][web-mode(GitHub)]]
+
