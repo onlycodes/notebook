@@ -1,13 +1,11 @@
 #+TITLE: 网址列表
 
 ** 常用
-
 + [[https://www.baidu.com/][百度]]
 + [[https://www.google.com.hk/?gws_rd=ssl][Google]]
 + [[https://github.com/][GitHub]]
 
 ** 编程语言
-
 + [[https://developer.mozilla.org/zh-CN/][MDN Web 文档(中文)]]
 + [[http://www.typescriptlang.org/][TypeScript(英文)]]
 + [[https://www.tslang.cn/][TypeScript(中文)]]
@@ -17,10 +15,19 @@
 + [[https://golang.org/][Go]]
 + [[http://docscn.studygolang.com/][Go(中文)]]
 + [[http://php.net/][PHP]]
++ [[https://www.python.org/][Python]]
 + [[http://www.oracle.com/technetwork/java/javase/overview/index.html][Java]]
++ [[https://developer.android.google.cn/index.html][Android Developers(CN)]]
++ [[http://kotlinlang.org/][Kotlin(英文)]]
++ [[https://www.kotlincn.net/][Kotlin(中文)]]
++ [[http://en.cppreference.com/w/][C/C++ 参考手册(英文)]]
++ [[http://zh.cppreference.com/w/%E9%A6%96%E9%A1%B5][C/C++ 参考手册(中文)]]
++ [[http://www.cplusplus.com/][cplusplus.com]]
++ [[http://www.lua.org/][Lua]]
++ [[https://www.rust-lang.org/zh-CN/][Rust(中文)]]
++ [[https://gradle.org/][Gradle]]
 
 ** 前端
-
 *** Vue
 + [[https://cn.vuejs.org/][Vue.js(中文)]]
 + [[https://router.vuejs.org/zh-cn/][Vue Router(中文)]]
@@ -83,3 +90,6 @@
 + [[https://guides.github.com/features/mastering-markdown/][GitHub Markdown]]
 + [[http://blog.csdn.net/witnessai1/article/details/52551362][Markdown 语法(中文CSDN)]]
 
+** Developer
++ [[https://developers.google.cn/][Google Developer(CN)]]
++ [[https://www.w3.org/][W3C]]
