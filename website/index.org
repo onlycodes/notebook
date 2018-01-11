@@ -61,6 +61,8 @@
 + [[https://www.genuitec.com/products/angular-ide/][Angular IDE]]
 + [[https://developer.android.google.cn/studio/index.html][Android Studio(CN)]]
 + [[http://www.eclipse.org/downloads/][eclipse]]
++ [[https://www.emeditor.com/][EmEditor]]
++ [[https://www.editplus.com/][EditPlus]]
 
 *** 其他编辑器
 + [[https://tamlok.github.io/vnote/][VNote]]
@@ -93,3 +95,8 @@
 ** Developer
 + [[https://developers.google.cn/][Google Developer(CN)]]
 + [[https://www.w3.org/][W3C]]
+
+** Fonts
++ [[https://fonts.google.com/][Google Fonts]]
++ [[https://fonts.google.com/specimen/Inconsolata?selection.family=Inconsolata][Google Fonts Inconsolata]]
++ [[https://github.com/adobe-fonts/source-code-pro][Source Code Pro(GitHub)]]
