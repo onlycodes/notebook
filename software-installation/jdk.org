@@ -37,12 +37,12 @@
 #+END_SRC
 
 *** 配置环境变量
-1. 打开配置文件
+1) 打开配置文件
 #+BEGIN_SRC bash
   sudo vi /etc/profile
 #+END_SRC
 
-2. 添加如下内容'
+2) 添加如下内容'
 #+BEGIN_EXAMPLE
   # 设置 java 环境
   export JAVA_HOME=/usr/local/jdk1.8.0_151
@@ -50,7 +50,7 @@
   export PATH=&JAVA_HOME/bin:$JAVA_HOME/jre/bin:$PATH
 #+END_EXAMPLE
 
-3. 重启电脑或运行 'sudo source /etc/profile' 使之生效
+3) 重启电脑或运行 'sudo source /etc/profile' 使之生效
 
 ** 测试 JDK 是否已配置好
 在命令行下输入以下几个命令:
