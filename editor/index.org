@@ -1,1 +1,5 @@
 #+TITLE: 编辑器相关
+
+
+** 颜色相关
++ [[./background-color.org][编辑器颜色设置]]

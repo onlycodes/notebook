@@ -38,13 +38,11 @@
 
 *** 配置环境变量
 1) 打开配置文件
-
 #+BEGIN_SRC bash
   sudo vi /etc/profile
 #+END_SRC
 
 2) 添加如下内容
-
 #+BEGIN_EXAMPLE
   # 设置 java 环境
   export JAVA_HOME=/usr/local/jdk1.8.0_151
