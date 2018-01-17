@@ -3,3 +3,6 @@
 
 ** 颜色相关
 + [[./background-color.org][编辑器颜色设置]]
+
+** 注册激活
++ [[./registration-code.org][编辑器注册激活]]
