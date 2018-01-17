@@ -6,3 +6,6 @@
 
 ** 注册激活
 + [[./registration-code.org][编辑器注册激活]]
+
+** 编辑器设置
++ [[./emacs-encoding.org][Emacs文件编码相关]]
