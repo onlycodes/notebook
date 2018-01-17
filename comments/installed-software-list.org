@@ -30,6 +30,14 @@
 + PyCharm
 + Brackets
 
+*** 前端相关
++ vue-cli
++ weex-toolkit
++ create-react-app
++ create-react-native-app
++ @angular/cli
++ express-generator
+
 *** 其他
 + 7-Zip
 + VirtualBox
