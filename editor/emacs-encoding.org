@@ -51,15 +51,15 @@ Emacs 打开文件时首先根据一个包含许多编码系统的列表依次�
 ** 在配置文件中设置编码
 #+BEGIN_SRC emacs-lisp
 ;; 设置默认的buffer编码
-(setq default-buffer-file-coding-system 'utf-8-unix)
+(setq default-buffer-file-coding-system 'utf-8)
 ;; 优先选择的编码
-(prefer-coding-system 'utf-8-unix)
-(set-language-environment "UTF-8-unix")
-(set-terminal-coding-system 'utf-8-unix)
-(set-keyboard-coding-system 'utf-8-unix)
-(set-clipboard-coding-system 'utf-8-unix)
+(prefer-coding-system 'utf-8)
+(set-language-environment "UTF-8")
+(set-terminal-coding-system 'utf-8)
+(set-keyboard-coding-system 'utf-8)
+(set-clipboard-coding-system 'utf-8)
 ;; 设置buffer的编码
-(set-buffer-file-coding-system 'utf-8-unix)
-(set-selection-coding-system 'utf-8-unix)
-(modify-coding-system-alist 'process "*" 'utf-8-unix)
+(set-buffer-file-coding-system 'utf-8)
+(set-selection-coding-system 'utf-8)
+(modify-coding-system-alist 'process "*" 'utf-8)
 #+END_SRC
