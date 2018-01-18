@@ -9,3 +9,4 @@
 
 ** 编辑器设置
 + [[./emacs-encoding.org][Emacs文件编码相关]]
++ [[./emacs-keyboard-shortcuts.org][Emacs 常用命令]]
