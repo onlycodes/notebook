@@ -1,0 +1,10 @@
+#+TITLE: Android 开发环境
+
+*** Android SDK 环境变量
+
+#+BEGIN_EXAMPLE
+  // 1. 新建 ANDROID_HOME
+  ANDROID_HOME C:\android\sdk
+  // 2. 添加path变量
+  Path %ANDROID_HOME%\tools;%ANDROID_HOME%\platform-tools;
+#+END_EXAMPLE

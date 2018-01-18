@@ -1,0 +1,26 @@
+#+TITLE: PHP 开发环境
+
+** Windows
+
+*** 下载
+
+
+*** 安装
+
+
+*** 配置
+
+**** 配置 Apache Httpd
+打开 apache/conf/httpd.conf 文件
+
+Apache 添加 PHP 模块
+#+BEGIN_SRC ini
+ # 1. 添加PHP模块
+ LoadModule php5_module "C:/php-5.6.31/php5apache2_4.dll"
+ # 2. php.ini 文件所在目录
+ PHPIniDir "C:/php-5.6.31"
+ # 3. 需要php解析的文件类型
+ AddType application/x-httpd-php .php
+#+END_SRC
+
+**** 配置 PHP
