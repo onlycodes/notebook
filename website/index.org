@@ -45,10 +45,26 @@
 
 
 ** 后端框架
+*** Nodejs
 + [[http://www.expressjs.com.cn/][Express(中文)]]
 + [[http://koajs.com/][Koajs(英文)]]
 + [[https://koa.bootcss.com/][Koajs(中文)]]
 + [[https://eggjs.org/][eggjs(中文)]]
+
+*** PHP
++ [[http://www.thinkphp.cn/][ThinkPHP]]
++ [[http://codeigniter.org.cn/][CodeIgniter(CN)]]
+
+*** Python
++ [[https://scrapy.org/][Scrapy]]
++ [[https://www.djangoproject.com/][Django]]
+
+** Design
++ [[https://material.io/][Material Design(EN)]]
++ [[http://design.1sters.com/][Material Design(CN)]]
++ [[https://ant.design/index-cn][Ant Design]]
++ [[https://dribbble.com/][Dribbble]]
++ [[http://www.uisdc.com/][优设]]
 
 ** 编辑器
 *** 编辑器官网
@@ -89,6 +105,7 @@
 + [[https://github.com/syl20bnr/spacemacs][spacemacs(GitHub)]]
 + [[https://github.com/dominikh/go-mode.el][go-model(GitHub)]]
 + [[https://github.com/fxbois/web-mode][web-mode(GitHub)]]
++ [[http://www.gnu.org/software/auctex/][GNU AUCTeX]]
 
 ** 普通文本标记语言
 + [[https://orgmode.org/][Org mode]]
@@ -98,12 +115,16 @@
 + [[http://www.gnu.org/software/emacs/manual/html_node/org/][Org mode Manual(emacs)]]
 + [[https://guides.github.com/features/mastering-markdown/][GitHub Markdown]]
 + [[http://blog.csdn.net/witnessai1/article/details/52551362][Markdown 语法(中文CSDN)]]
++ [[http://www.gnu.org/software/texinfo/][GNU Texinfo]]
++ [[https://www.latex-project.org/][LaTeX]]
 
 ** Developer
 + [[https://developers.google.cn/][Google Developer(CN)]]
 + [[https://www.w3.org/][W3C]]
++ [[http://graphql.cn/][GraphQL(CN)]]
 
 ** Fonts
 + [[https://fonts.google.com/][Google Fonts]]
 + [[https://fonts.google.com/specimen/Inconsolata?selection.family=Inconsolata][Google Fonts Inconsolata]]
 + [[https://github.com/adobe-fonts/source-code-pro][Source Code Pro(GitHub)]]
+
