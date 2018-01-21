@@ -85,6 +85,7 @@
 + [[https://developer.android.google.cn/studio/index.html][Android Studio(CN)]]
 + [[http://www.eclipse.org/downloads/][eclipse]]
 + [[https://www.emeditor.com/][EmEditor]]
++ [[https://www.visualstudio.com/zh-hans/downloads/][Visual Studio]]
 + [[https://www.editplus.com/][EditPlus]]
 
 *** 其他编辑器
@@ -118,7 +119,7 @@
 + [[http://www.gnu.org/software/texinfo/][GNU Texinfo]]
 + [[https://www.latex-project.org/][LaTeX]]
 
-** Developer
+** Develop
 + [[https://developers.google.cn/][Google Developer(CN)]]
 + [[https://www.w3.org/][W3C]]
 + [[http://graphql.cn/][GraphQL(CN)]]
@@ -128,3 +129,12 @@
 + [[https://fonts.google.com/specimen/Inconsolata?selection.family=Inconsolata][Google Fonts Inconsolata]]
 + [[https://github.com/adobe-fonts/source-code-pro][Source Code Pro(GitHub)]]
 
+
+** software
++ [[https://www.mongodb.com/][Mongodb]]
++ [[http://memcached.org/][Memcached]]
++ [[https://redis.io/][Redis]]
++ [[https://www.mysql.com/][MySQL]]
++ [[https://filezilla-project.org/][FileZilla]]
++ [[http://www.xmind.net/][XMind]]
++ [[https://cygwin.com/index.html][Cygwin]]
