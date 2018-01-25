@@ -4,9 +4,15 @@
 ** 颜色相关
 + [[./background-color.org][编辑器颜色设置]]
 
+** 字体
++ [[./fonts.org][常用字体]]
 ** 注册激活
 + [[./registration-code.org][编辑器注册激活]]
 
-** 编辑器设置
-+ [[./emacs-encoding.org][Emacs文件编码相关]]
+** Emacs
++ [[./emacs-encoding.org][Emacs文件编码设置]]
 + [[./emacs-keyboard-shortcuts.org][Emacs 常用命令]]
++ [[./emacs-plugin.org][Emacs 插件列表]]
++ [[./emacs-dired.org][Emacs Dired 模式]]
++ [[./emacs-shell.org][Emacs Shell 模式]]
++ [[./emacs-calendar.org][Emacs 日历模式]]

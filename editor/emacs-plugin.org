@@ -1,0 +1,42 @@
+#+TITLE: Emacs 插件列表
+
+*** org mode
+
+*** js2 mode
+
+*** go mode
+
+*** web mode
+
+*** vue mode
+
+*** php mode
+
+*** emmet mode
+
+*** markdown mode
+
+*** one dark theme
+
+*** solarized theme
+
+*** company mode
+
+*** smartparens mode
+
+*** helm mode
+
+*** spaceemacs
+
+*** shell
+
+*** eshell
+
+*** ansi term
+
+*** term
+
+*** dired
+
+*** calendar
+
