@@ -5,26 +5,26 @@ XeLaTeX
 ** 支持中文的方法
 以下方法需使用 XeLaTeX 编译
 - 方法一: 导入以下宏包
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC latex
   \usepackage{fontspec, xunicode, xltxtra}
   \setmainfont{KaiTi}
-#+END_EXAMPLE
+#+END_SRC
 
 - 方法二: 导入 xeCJK 宏包
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC latex
   \usepackage{xeCJK}
-#+END_EXAMPLE
+#+END_SRC
 
 - 方法三: 使用 CTeX 宏包
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC latex
   \documentclass[UTF8]{ctexart}
-#+END_EXAMPLE
+#+END_SRC
 
 ** 设置导出的PDF页面大小
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC latex
   \usepackage{geometry}
   \geometry{top=2cm, right=2cm, bottom=2cm, left=2cm}
-#+END_EXAMPLE
+#+END_SRC
 
 ** 编辑器
 - TeXstudio
