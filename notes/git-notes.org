@@ -1,0 +1,15 @@
+#+TITLE: Git 笔记
+
+** Git 修改远程版本库
+*** 方法一
+直接修改
+#+BEGIN_SRC shell
+  git remote origin set-url [url]
+#+END_SRC
+
+*** 方法二
+先删除，再添加
+#+BEGIN_SRC shell
+  git remote rm origin
+  git remote add origin [url]
+#+END_SRC

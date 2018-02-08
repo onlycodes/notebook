@@ -4,3 +4,4 @@
 - [[./linux-notes.org][Linux 笔记]]
 - [[./tex-notes.org][TeX 笔记]]
 - [[./vim-notes.org][Vim 笔记]]
+- [[./git-notes.org][Git 笔记]]
