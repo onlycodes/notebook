@@ -38,7 +38,7 @@ Emacs 打开文件时首先根据一个包含许多编码系统的列表依次�
 *** 不改变当前文件, 以指定编码另存为
 #+BEGIN_EXAMPLE
   M-x universal-coding-system-argument RET utf-8
-  # 命令为: C-x RET c utf-8
+  # 命令为: C-x RET c utf-8 RET C-x C-w RET
 #+END_EXAMPLE
 
 *** 文件格式转换
@@ -48,6 +48,12 @@ Emacs 打开文件时首先根据一个包含许多编码系统的列表依次�
   # 命令为: C-x RET f unix/dos
 #+END_EXAMPLE
 
+
+*** 问题: 从其他窗口复制内容粘贴到Emacs中，出现乱码
+#+BEGIN_SRC emacs-lisp
+;; 将下面一行注释掉
+;;(set-selection-coding-system 'utf-8)
+#+END_SRC
 ** 在配置文件中设置编码
 #+BEGIN_SRC emacs-lisp
 ;; 设置默认的buffer编码
@@ -58,8 +64,12 @@ Emacs 打开文件时首先根据一个包含许多编码系统的列表依次�
 (set-terminal-coding-system 'utf-8)
 (set-keyboard-coding-system 'utf-8)
 (set-clipboard-coding-system 'utf-8)
+(setq locale-coding-system 'utf-8)
 ;; 设置buffer的编码
 (set-buffer-file-coding-system 'utf-8)
 (set-selection-coding-system 'utf-8)
 (modify-coding-system-alist 'process "*" 'utf-8)
+
+;; 指定后缀名的字符编码
+(add-to-list 'file-coding-system-alist '("\\.txt" . utf-8-unix) )
 #+END_SRC

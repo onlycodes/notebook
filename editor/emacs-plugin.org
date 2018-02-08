@@ -16,6 +16,8 @@
 
 *** markdown mode
 
+*** AUCTex
+
 *** one dark theme
 
 *** solarized theme

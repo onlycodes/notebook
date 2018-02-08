@@ -1,0 +1,6 @@
+#+TITLE: 笔记
+
+- [[./emacs-notes.org][Emacs 笔记]]
+- [[./linux-notes.org][Linux 笔记]]
+- [[./tex-notes.org][TeX 笔记]]
+- [[./vim-notes.org][Vim 笔记]]

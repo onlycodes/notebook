@@ -1,0 +1,24 @@
+
+** 编译器
+XeLaTeX
+
+** 支持中文的方法
+- 方法一: 导入以下宏包
+#+BEGIN_EXAMPLE
+  \usepackage{fontspec, xunicode, xltxtra}
+  \setmainfont{ SongTi }
+#+END_EXAMPLE
+
+- 方法二: 导入 xeCJK 宏包
+#+BEGIN_EXAMPLE
+  \usepackage{xeCJK}
+#+END_EXAMPLE
+
+- 方法三: 使用 CTeX 宏包
+#+BEGIN_EXAMPLE
+  \documentclass[UTF8]{ctexart}
+#+END_EXAMPLE
+
+** 编辑器
+- TeXstudio
+- Emacs + AUCTeX插件

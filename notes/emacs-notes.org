@@ -1,0 +1,83 @@
+
+** 显示行号
+*** 通过命令设置
+设置当前 Buffer 显示行号
+#+BEGIN_EXAMPLE
+  M-x linum-mode
+#+END_EXAMPLE
+
+设置所有 Buffer 显示行号
+#+BEGIN_EXAMPLE
+  M-x global-linum-mode
+#+END_EXAMPLE
+
+*** 配置文件里设置
+#+BEGIN_SRC emacs-lisp
+  ;; 显示行号\
+  (global-linum-mode t)
+  ;; 或者 
+  ;; (global-linum-mode 1)
+#+END_SRC
+
+** 设置 tab
+在 .emacs 配置文件中设置
+#+BEGIN_SRC emacs-lisp
+  ;; tab改为空格
+  (setq-default indent-tabs-mode nil)
+  ;; tab不改为空格
+  (setq-default indent-tabs-mode t)
+  ;; 设置tab宽度
+  (setq default-tab-width 4)
+#+END_SRC
+
+将所有超过两个的连续空格使用TAB替换掉
+#+BEGIN_EXAMPLE
+  M-x tabify
+#+END_EXAMPLE
+
+将所有TAB使用适当个数的空格替换掉
+#+BEGIN_EXAMPLE
+  M-x untabify
+#+END_EXAMPLE
+
+** 设置启动时的窗口大小
+#+BEGIN_SRC emacs-lisp
+  ;; 设置窗口位置为屏幕左上角(0, 0)
+  (set-frame-position (selected-frame) 0 0)
+  ;; 设置宽度
+  (set-frame-width (selected-frame) 110)
+  ;; 设置高度
+  (set-frame-height (selected-frame) 33)
+#+END_SRC
+
+** 关闭启动页面
+#+BEGIN_SRC emacs-lisp
+  (setq inhibit-splash-screen t)
+#+END_SRC
+
+** 更改 tango-dark 主题注释的颜色
+#+BEGIN_EXAMPLE
+  // 1. 打开主题文件, Widows系统下的文件位置为:
+  emacs-25.3_1-x86_64\share\emacs\25.3\etc\themes\tango-dark-theme.el
+  // 2. 找到变量 cham-2(原值为: #73d216)
+  // 3. 改为: #a7adba
+#+END_EXAMPLE
+
+** 插入 TAB 字符的问题
+emacs 中 TAB 键的作用相当于格式化缩进和排版, 要是想插入TAB字符, 应输入 `C-q TAB`
+#+BEGIN_EXAMPLE
+  只按 TAB 并不能插入TAB字符, 插入 TAB 字符的命令为
+  C-q TAB
+#+END_EXAMPLE
+
+** emacs设置背景色
+#+BEGIN_SRC emacs-lisp]
+  ;; 设置背景色
+  (set-background-color "black")
+  ;; 设置前景色
+  (set-foreground-color "white")
+  ;; 设置区域前景色
+  (set-face-background 'region "blue")
+  ;; 设置区域背景色
+  (set-face-background 'region "blue")
+#+END_SRC

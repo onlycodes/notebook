@@ -1,0 +1,19 @@
+#+TITLE: 编辑器常用字体
+
+*** Source Code Pro
+免费的等宽字体
+- [[https://github.com/adobe-fonts/source-code-pro][GitHub地址]]
+
+*** Inconsolata(Google)
+免费的等宽字体
+- [[https://fonts.google.com/specimen/Inconsolata?selection.family=Inconsolata][网址(需翻墙)]]
+
+*** Deja Vu Sans Mono
+需要anti-aliasing(抗锯齿)
+- [[https://dejavu-fonts.github.io/][网址]]
+
+***  Courier New
+需要anti-aliasing(抗锯齿)
+
+***  Monaco
+Mac 的字体

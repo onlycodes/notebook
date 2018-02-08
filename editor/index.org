@@ -4,8 +4,8 @@
 ** 颜色相关
 + [[./background-color.org][编辑器颜色设置]]
 
-** 字体
-+ [[./fonts.org][常用字体]]
+** 编辑器字体
++ [[./editor-fonts.org][编辑器常用字体]
 ** 注册激活
 + [[./registration-code.org][编辑器注册激活]]
 

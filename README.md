@@ -23,7 +23,11 @@
 
 ### [编辑器](./editor/index.org)
 
+### [Linux](./linux/index.org)
+
 ### [网址链接](./website/index.org)
 
 ### [备注](./mark/index.org)
+
+### [笔记杂项](./notes/index.org)
 
