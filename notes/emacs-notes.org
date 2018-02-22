@@ -71,7 +71,7 @@ emacs 中 TAB 键的作用相当于格式化缩进和排版, 要是想插入TAB�
 #+END_EXAMPLE
 
 ** emacs设置背景色
-#+BEGIN_SRC emacs-lisp]
+#+BEGIN_SRC emacs-lisp
   ;; 设置背景色
   (set-background-color "black")
   ;; 设置前景色
@@ -80,4 +80,16 @@ emacs 中 TAB 键的作用相当于格式化缩进和排版, 要是想插入TAB�
   (set-face-background 'region "blue")
   ;; 设置区域背景色
   (set-face-background 'region "blue")
+#+END_SRC
+
+** emacs 设置中英文字体
+#+BEGIN_SRC emacs-lisp
+(defun set-font (english chinese english-size chinese-size)
+  (set-face-attribute 'default nil :font
+                      (format   "%s:pixelsize=%d"  english english-size))
+  (dolist (charset '(kana han symbol cjk-misc bopomofo))
+    (set-fontset-font (frame-parameter nil 'font) charset
+                      (font-spec :family chinese :size chinese-size))))
+
+(set-font   "Source Code Pro" "Hiragino Sans GB" 16 20)
 #+END_SRC

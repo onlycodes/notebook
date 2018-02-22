@@ -4,6 +4,13 @@
 免费的等宽字体
 - [[https://github.com/adobe-fonts/source-code-pro][GitHub地址]]
 
+*** Roboto Mono
+Google出品免费等宽字体
+
+*** Fira Mono
+Mozilla 出品免费等宽字体
+- [[http://mozilla.github.io/Fira/][网址]]
+
 *** Inconsolata(Google)
 免费的等宽字体
 - [[https://fonts.google.com/specimen/Inconsolata?selection.family=Inconsolata][网址(需翻墙)]]

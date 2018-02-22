@@ -20,6 +20,13 @@ XeLaTeX
   \documentclass[UTF8]{ctexart}
 #+END_SRC
 
+** beamer 支持中文的方法
+#+BEGIN_EXAMPLE
+  \usepackage{fontspec, xunicode, xltxtra}
+  \setmainfont{KaiTi}
+  \setsansfont{KaiTi}
+#+END_EXAMPLE
+
 ** 设置导出的PDF页面大小
 #+BEGIN_SRC latex
   \usepackage{geometry}
@@ -33,3 +40,11 @@ XeLaTeX
 ** LaTex 发行版
 - MikTeX
 - TeX Live
+
+** MikTeX 安装 beamer
+1. 下载 beamer, pgf, xcolor
+   + [[https://ctan.org/tex-archive/macros/latex/contrib/beamer/][beamer 下载]]
+   + [[https://ctan.org/tex-archive/graphics/pgf/][pgf 下载]]
+   + [[https://ctan.org/tex-archive/macros/latex/contrib/xcolor/][xcolor 下载]]
+2. 将解压的文件夹分别命名为beamer, pgf, xcolor 并拷贝到 C:\MiKTeX 2.9\tex\latex\ 目录下
+3. 打开命令行窗口, 运行 texhash 
